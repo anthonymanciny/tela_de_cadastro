@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+
+.cabecalho img{
+    height: 10rem;
+    width: 10rem;
+    border: 10PX solid white;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    background-color: skyblue;
+    align-items: center;
+    justify-content: center; 
+    border: 2px solid black;
+    padding: 25px;
+    height: 70vh;
+
+
+}
+
+form{
+    margin-left: 5%;
+    align-items: center;
+    justify-content: center; 
+}
+
+form input{
+    width: 100%;
+}
+
+.cadastro{
+    width: 100%;
+    max-width: 350px;
+    background-color: rgb(255, 255, 255);
+    margin: 70px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.rodape p{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.rodape a{
+    display: flex;
+    color: white;    
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button{
+    color: white;
+    background-color: #1ec5eb;
+    width: 8.5em;
+    height: 2.5em;
+    margin: 0.8em;
+}
+
+footer{
+    background-color: rgb(8, 52, 84);
+    height: 10vh;
+}
+
+.dev{
+    font-size: large;
+    text-decoration: solid;
+}
